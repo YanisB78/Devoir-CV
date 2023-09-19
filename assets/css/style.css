@@ -70,6 +70,18 @@ address{
     font-family: Raleway, sans-serif;
 }
 
+.hover-1:hover{
+    text-decoration: underline;
+}
+
+.hover-2:hover{
+    text-decoration: underline;
+}
+
+.hover-3:hover{
+    text-decoration: underline;
+}
+
 a{
     color: white;
     text-decoration: none;
@@ -110,6 +122,7 @@ div{
     display: flex;
     flex-basis: 70%;
     background-color: white;
+    overflow: scroll;
 }
 
 .right-titles{
@@ -146,6 +159,24 @@ h4{
     font-size: smaller;
     padding-left: 60px;
     margin-top: 0px;
+}
+
+.icone{
+    width: 40px;
+    margin: 10px;
+    border-radius: 0%;
+    box-shadow: none;
+    background-color: #782221;
+}
+
+.flex-footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.cursor{
+    cursor: zoom-in;
+    margin: auto;
 }
 
 
